@@ -7,7 +7,7 @@ on:
 
 jobs:
   job1:
-    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/called-workflow.yml@main
+    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@main
 
   job2:
     runs-on: ubuntu-latest
