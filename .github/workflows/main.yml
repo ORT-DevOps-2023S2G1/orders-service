@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@{{vars.RELEASE_VERSION}}
+    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@v*
 
   call-workflow-passing-data:
     permissions:
