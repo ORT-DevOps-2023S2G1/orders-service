@@ -1,13 +1,13 @@
-name: Call a reusable workflow and use its outputs
+name: Call a reusable workflow 
 
 on:
   push:
     branches:
-      - develop
+      - main
   
+  # Allow workflow to be triggered manually
   workflow_dispatch:
   
-
 jobs:
   job1:
     uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@main
