@@ -10,6 +10,4 @@ on:
 
 jobs:
   job1:
-    permissions:
-      issues: write
     uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@main
