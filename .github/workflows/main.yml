@@ -11,12 +11,6 @@ permissions: write-all
 jobs:
   job1:
     uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@main
+    secrets: inherit
   
-  automated_api_tests_job:
-    runs-on:  ubuntu-22.04
-    name: Automated API tests using Postman CLI. 
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run checqueo
-        run: |
-          echo  ${{ secrets.POSTMAN_API_KEY }} 
+ 
