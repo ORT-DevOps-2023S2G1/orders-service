@@ -7,9 +7,6 @@ on:
   
   # Allow workflow to be triggered manually
   workflow_dispatch:
-
-permissions:
-  issues: write
   
 jobs:
   job1:
