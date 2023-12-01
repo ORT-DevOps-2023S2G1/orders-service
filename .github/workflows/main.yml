@@ -1,4 +1,4 @@
-name: Call a reusable workflow 
+name: Orders service CI 
 
 on:
   push:
@@ -7,9 +7,13 @@ on:
   
   # Allow workflow to be triggered manually
   workflow_dispatch:
+  
 permissions: write-all
+
 jobs:
-  job1:
+  build_test_release:
+
+    name: Build Test and Release - Call reusable workflow
     uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@main
     secrets: inherit
   
