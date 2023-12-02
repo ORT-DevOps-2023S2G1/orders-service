@@ -3,7 +3,6 @@ name: Orders service CI
 on:
   push:
     branches:
-      - main
       - test
   
   # Allow workflow to be triggered manually
