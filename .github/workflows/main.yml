@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - test
   
   # Allow workflow to be triggered manually
   workflow_dispatch:
@@ -14,7 +15,7 @@ jobs:
   build_test_release:
 
     name: Build Test and Release - Call reusable workflow
-    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@main
+    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@test
     secrets: inherit
   
  
