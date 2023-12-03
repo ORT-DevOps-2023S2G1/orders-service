@@ -16,5 +16,12 @@ jobs:
     name: Build Test and Release - Call reusable workflow
     uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@main
     secrets: inherit
+
+jobs:
+  deploy_DEV:
+
+    name: Deploy on DEV Environment - Call reusable workflow
+    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/deploy-dev.yml@main
+    secrets: inherit
   
  
