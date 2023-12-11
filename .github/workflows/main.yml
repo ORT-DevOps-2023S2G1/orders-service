@@ -21,7 +21,7 @@ jobs:
     needs: build_test_release
 
     name: Deploy on DEV Environment - Call reusable workflow
-    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/deploy.yml@main
+    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/deploy.yml@feature/deploy
     secrets: inherit
   
  
