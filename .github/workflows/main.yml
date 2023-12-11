@@ -3,7 +3,7 @@ name: Orders service CI
 on:
   push:
     branches:
-      - test
+      - main
   
   # Allow workflow to be triggered manually
   workflow_dispatch:
