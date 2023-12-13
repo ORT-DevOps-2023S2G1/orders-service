@@ -12,7 +12,7 @@ permissions: write-all
 jobs:
   build_test_release:
     name: Build Test and Release
-    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@feature-dividir-test
+    uses: ORT-DevOps-2023S2G1/workflows-repository/.github/workflows/main.yml@feature/dividir-test
     secrets: inherit
 
   # deploy:
